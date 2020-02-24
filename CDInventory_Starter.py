@@ -67,7 +67,7 @@ while True:
         for item in range(len(lstTbl)): 
                 if lstTbl[item]['ID'] == int(deleteID): 
                     del lstTbl[item]
-                break
+                    break
         # Show inventory after deletion
         print('Your current inventory is now')
         print('ID, Title, Artist Name')
